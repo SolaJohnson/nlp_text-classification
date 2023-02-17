@@ -2,9 +2,9 @@
 #### by Johnson Amodu
 
 ### 1. INTRODUCTION
-In the project, Getting Started I used Natural Language Processing to carryout tokenization, part-of-speech tagging, stemming, chunking, and named entity recognition. Furthermore, I dove into machine learning and text classification using a simple support vector classifier and a dataset of positive and negative movie reviews.
+In the project, getting started I used Natural Language Processing to carryout tokenizing, part-of-speech tagging, stemming, chunking, and named entity recognition. Furthermore, I also utilized machine learning and text classification using a simple support vector classifier and a dataset of positive and negative movie reviews.
 
-In this project, I will expand on the following foundatiosn and explore different ways to improve our text classification results. We will cover and use:
+I also expanded on the following foundations and explored different ways to improve the text classification results. I covered and used:
 
 <ul>
 <li>Regular Expressions
@@ -33,17 +33,17 @@ There is one collection:
 
 #### 2.3. Format
 The files contain one message per line. Each line is composed by two columns: one with label (ham or spam) and other with the raw text. Here are some examples:
-
-<br>ham   What you doing?how are you?
-<br>ham   Ok lar... Joking wif u oni...
-<br>ham   dun say so early hor... U c already then say...
-<br>ham   MY NO. IN LUTON 0125698789 RING ME IF UR AROUND! H*
-<br>ham   Siva is in hostel aha:-.
-<br>ham   Cos i was out shopping wif darren jus now n i called him 2 ask wat present he wan lor. Then he started guessing who i was wif n he finally guessed darren lor.
-<br>spam   FreeMsg: Txt: CALL to No: 86888 & claim your reward of 3 hours talk time to use from your phone now! ubscribe6GBP/ mnth inc 3hrs 16 stop?txtStop
-<br>spam   Sunshine Quiz! Win a super Sony DVD recorder if you canname the capital of Australia? Text MQUIZ to 82277. B
-<br>spam   URGENT! Your Mobile No 07808726822 was awarded a L2,000 Bonus Caller Prize on 02/09/03! This is our 2nd attempt to contact YOU! Call 0871-872-9758 BOX95QU
-
+```
+ham   What you doing?how are you?
+ham   Ok lar... Joking wif u oni...
+ham   dun say so early hor... U c already then say...
+ham   MY NO. IN LUTON 0125698789 RING ME IF UR AROUND! H*
+ham   Siva is in hostel aha:-.
+ham   Cos i was out shopping wif darren jus now n i called him 2 ask wat present he wan lor. Then he started guessing who i was wif n he finally guessed darren lor.
+spam   FreeMsg: Txt: CALL to No: 86888 & claim your reward of 3 hours talk time to use from your phone now! ubscribe6GBP/ mnth inc 3hrs 16 stop?txtStop
+spam   Sunshine Quiz! Win a super Sony DVD recorder if you canname the capital of Australia? Text MQUIZ to 82277. B
+spam   URGENT! Your Mobile No 07808726822 was awarded a L2,000 Bonus Caller Prize on 02/09/03! This is our 2nd attempt to contact YOU! Call 0871-872-9758 BOX95QU
+```
 <li> Note: messages are not chronologically sorted.
 
 
